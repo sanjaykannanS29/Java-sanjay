@@ -16,7 +16,7 @@ class Student {
         System.out.println("Name     : " + name);
         System.out.println("Roll No  : " + rollno);
         System.out.println("Mark     : " + mark);
-        System.out.println("------------------------");
+        
     }
 }
 
@@ -46,5 +46,8 @@ public class Studentmanagement {
         for (int i = 0; i < students.length; i++) {
             students[i].displayDetails();
         }
+ 
     }
-}
+
+    // Completely learned the process of creating and storing in array !!! 
+}        
